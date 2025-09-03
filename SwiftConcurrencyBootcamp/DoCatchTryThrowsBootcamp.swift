@@ -51,7 +51,7 @@ class DoCatchTryThrowsBootcampDataManager {
 
 class DoCatchTryThrowsBootcampViewModel: ObservableObject {
     
-    let manager = DoCatchTryThrowsBootcampDataManager()
+    private let manager = DoCatchTryThrowsBootcampDataManager()
     
     @Published var text: String = "Starting Text..."
     
