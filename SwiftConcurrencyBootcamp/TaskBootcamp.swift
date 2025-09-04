@@ -20,7 +20,7 @@ class TaskBootcampViewModel: ObservableObject {
             print("Started 💛")
             for i in 0...19 {
                 print(i)
-                print(Thread.isMainThread)
+//                print(Thread.isMainThread)
                 await MainActor.run {
 //                    array.append(String(i))
                     count += 1
