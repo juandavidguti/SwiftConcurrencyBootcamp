@@ -11,7 +11,7 @@ struct AsyncLetBootcamp: View {
     
     @State private var images: [UIImage] = []
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
-    let url = URL(string: "https://picsum.photos/300")!
+    let url = URL(string: "https://picsum.photos/200")!
     
     var body: some View {
         NavigationStack {
